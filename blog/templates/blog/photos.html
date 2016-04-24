@@ -1,0 +1,53 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+
+<div class="img">
+	  <a target="_blank" href="rony.jpg">
+	   	<img src='/static/personal/img/rony.jpg' alt="rony" width="300" height="200">
+	  </a>
+	  <div class="desc">Best couple ever</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="gamu.jpg">
+    <img src='/static/personal/img/gamu.jpg' width="300" height="200">
+  </a>
+  <div class="desc">We are awesome and we know it</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="gamuwarony.jpg">
+    <img src='/static/personal/img/gamuwarony.jpg' alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Hands for Rony and Gamu</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="ronynagamu.jpg">
+    <img src='/static/personal/img/ronynagamu.jpg' alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Just say it already, takafitana rough</div>
+</div>
+{% endblock %}
