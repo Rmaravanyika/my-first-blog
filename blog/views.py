@@ -3,7 +3,7 @@ from django.utils import timezone
 from .models import Post
 from .forms import PostForm
 
-def index(request):
+def blog_index(request):
     return render(request, 'blog/home.html')
 
 def post_list(request):
